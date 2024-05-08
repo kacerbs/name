@@ -7,7 +7,7 @@ Section:NewButton("Dupe Crossbows", "Execute this while in the select weapon men
     local plr = game.Players.LocalPlayer
 local dupe = {}
 
-for i=1,80 do table.insert(dupe,tonumber(12)) end -- IF YOU WANT MORE THAN 80 AMMO, CHANGE THE (80) TO WHATEVER NUMBER
+for i=1,80 do table.insert(dupe,tonumber(150)) end -- IF YOU WANT MORE THAN 80 AMMO, CHANGE THE (80) TO WHATEVER NUMBER
 
 settings().Network.IncomingReplicationLag = math.huge
 wait()
